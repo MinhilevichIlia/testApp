@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    display: flex;
+    width: 73%;
+    justify-content: space-between;
+}
+.filterWrapper {
+    width: 250px;
+    margin-top: 50px
+}
+.wrapperNews {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.category {
+    text-align: center;
+    font-size: 30px;
+    color: White
+}
+.tittle{
+    font-size: 23px;
+    text-align: center;
+}
+.news {
+    margin-top: 10px;
+}
+.select{
+    color: black;
+}
+option {
+    color: black;
+}

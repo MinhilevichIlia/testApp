@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonWrapper{
+    margin-right: 50px;
+}
+.logo {
+    margin-left: 30px;
+    Width: 161px;
+    Height: 56px;
+}
+.newsLink ,.profileLink {
+    Width: 114px;
+    Height: 39px;
+    margin: 0 50px 0 0 ;
+    background-color: #673AB7;
+    color: white;
+    border-radius: 45px;
+}
+.newsLink:hover,.profileLink:hover {
+    background-color: gray ;
+    cursor: pointer;
+}
